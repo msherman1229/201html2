@@ -1,0 +1,25 @@
+    1  logout
+    2  ls
+    3  /bin/ls
+    4  man ls
+    5  cd htdocs
+    6  ls
+    7  vi index.html
+    8  ls
+    9  cd htdocs
+   10  ls
+   11  vim 201.html
+   12  mkdir 201html
+   13  cp 201.html 201html
+   14  cd 201html
+   15  git conifg --global "msherman1229"
+   16  git config --global "msherman1229"
+   17  gitconfig --globabl user.name "msherman1229"
+   18  git config --global user.name "msherman1229"
+   19  vi index.html 
+   20  vim index.html
+   21  cp index.html orig.html
+   22  vi
+   23  vi orig.html 
+   24  history
+   25  history > 201notes.txt
