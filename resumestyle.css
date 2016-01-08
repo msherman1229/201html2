@@ -1,3 +1,15 @@
-h1 {
-color: blue; 
+#main-head {
+text-align: center;
+font-family: "Didot";  
+}
+body {
+width: 100%; 
+margin: auto;
+background-color: white; 
+#main-pic {
+position: absolute;
+left: 40.5%; 
+top: 18%;
+border: 5px solid black;
+box-shadow: 5px 5px 25px;  
 }
