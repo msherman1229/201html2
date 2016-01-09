@@ -43,21 +43,19 @@ font-size: 17px;
 font-family: "Arial";
 font-weight: bold;  
 }
-.right-link {
-float: right; 
+.right-link { 
 position: absolute;
-top: 30%; 
-right: 17%;
+top: 125px; 
+right: 188px; 
 font-family: "Arial";
 font-weight: bold; 
 z-index: 2;   
 }
 .left-link {
-float: left; 
-position: absolute; 
-top: 30%; 
-left: 10%; 
-font-family: "Arial"; 
+position: absolute;
+top: 125px;
+left: 107px;
+font-family: "Arial";
 font-weight: bold;
 z-index: 2;   
 }
@@ -112,7 +110,20 @@ box-shadow: 5px 5px 25px;
 }
 #info-body {
 float: right; 
-width: 60%;
+width: 61%;
+margin-right: 3%;
+font-family: "Arial";
+font-size: 20px;
+}
+#experience-pic {
+width: 28%;
+height: 307px;
+margin-left: 2%;
+box-shadow: 5px 5px 25px;
+}
+#experience-body {
+float: right;
+width: 67%;
 font-family: "Arial";
 font-size: 20px;
 }
