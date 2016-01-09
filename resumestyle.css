@@ -5,6 +5,16 @@ font-size: 32px;
 background-color: grey; 
 color: white;    
 }
+.footer {
+background-color: grey; 
+color: white; 
+font-size: 20px; 
+text-align: center; 
+font-family: "Didot"; 
+position: relative; 
+margin-top: 9%;
+clear: both;  
+}
 body {
 width: 100%; 
 margin: auto;
@@ -17,10 +27,61 @@ top: 18%;
 border: 5px solid black; 
 box-shadow: 5px 5px 25px; 
 }
+#education-pic {
+width: 40%; 
+float: left; 
+margin-left: 20px; 
+border: 5px solid black; 
+box-shadow: 5px 5px 25px;  
+}
 #intro-p {
 text-align: center; 
 margin-left: 10%; 
 margin-right: 13%;
 font-size: 17px; 
-font-family: "Didot";  
+font-family: "Arial";
+font-weight: bold;  
+}
+.right-link {
+float: right; 
+position: absolute;
+top: 30%; 
+right: 17%;
+font-family: "Arial";
+font-weight: bold;   
+}
+.left-link {
+float: left; 
+position: absolute; 
+top: 30%; 
+left: 10%; 
+font-family: "Arial"; 
+font-weight: bold;  
+}
+#bio-link {
+margin-left: 38%; 
+}
+#education-link {
+margin-left: 53%; 
+}
+#experience-link {
+margin-left: 51%;
+}
+#education-p {
+position: relative; 
+margin-left: 487px; 
+margin-top: 50px; 
+font-size: 20px;
+font-family: "Arial";
+margin-right: 36px;
+}
+#current-eduation {
+position: relative; 
+margin-left: 487px;  
+font-size: 20px; 
+font-family: "Arial";
+margin-right: 36px;
+}
+#education-head {
+font-size: 20px;
 }
