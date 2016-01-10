@@ -50,14 +50,17 @@ right: 188px;
 font-family: "Arial";
 font-weight: bold; 
 z-index: 2;   
+font-size: 20px;
 }
 .left-link {
 position: absolute;
 top: 125px;
-left: 107px;
+left: 88px;
 font-family: "Arial";
 font-weight: bold;
 z-index: 2;   
+font-size: 20px; 
+
 }
 #bio-link {
 margin-left: 38%; 
