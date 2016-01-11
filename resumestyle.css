@@ -72,12 +72,12 @@ margin-left: 53%;
 margin-left: 51%;
 }
 #education-p {
-position: relative; 
-margin-left: 487px; 
-margin-top: 50px; 
+float: right;
+width: 54%;
+margin-right: 13px;
 font-size: 20px;
 font-family: "Arial";
-margin-right: 36px;
+margin-bottom: 49px;
 }
 #current-education {
 position: relative; 
