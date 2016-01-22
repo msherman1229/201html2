@@ -1,0 +1,34 @@
+body {
+background-color: lightblue;
+}
+#submission {
+display: flex; 
+justify-content: center; 
+align-items: center; 
+border-radius: 20px; 
+margin-top: 5%;
+margin-left: 28%;
+margin-right: 28%;
+padding: 3%;
+background-color: white;
+box-shadow: 5px 5px 100px white; 
+font-family: "Helvetica Neue";  
+}
+#button {
+padding: 5px 10px;
+}
+#main-head {
+font-family: "Helvetica Neue";
+font-size: 25px;
+margin-left: 1%;
+text-shadow: 1px 1px 1px white; 
+}
+#head-bar {
+width: 101%;
+height: 2%;
+background-color: darkblue;
+position: absolute;
+margin-top: -1%;
+margin-left: -1%;
+box-shadow: 5px 5px 5px darkblue; 
+}
