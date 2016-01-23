@@ -32,3 +32,25 @@ margin-top: -1%;
 margin-left: -1%;
 box-shadow: 5px 5px 5px darkblue; 
 }
+#weather-list {
+background: darkblue; 
+color: white; 
+list-style-type: none; 
+padding-left: 0;
+text-align: center; 
+border-radius: 6px;
+padding-top: 5px;
+padding-bottom: 8px;
+padding-left: 15px;
+padding-right: 15px;
+font-family: "Helvetica Neue";
+}
+#weather {
+display: flex; 
+justify-content: center; 
+margin: 20px;
+}
+#location-head {
+font-size: 35px;
+font-weight: bold;
+text-shadow: 2px 2px black; 
