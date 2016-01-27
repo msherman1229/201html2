@@ -54,3 +54,10 @@ margin: 20px;
 font-size: 35px;
 font-weight: bold;
 text-shadow: 2px 2px black; 
+}
+#blank-list {
+list-style-type: none; 
+text-align: center;
+font-family: "Helvetica Neue";
+margin-left: -40px;  
+}

@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="weatherStyle.css">
 </head>
 <body>
+<div id="background"></div>
 <h1 id="main-head">Utah Weather</h1>
 <div id="head-bar"></div>
 <div id="submission">
@@ -15,10 +16,12 @@ Suggestions<br><span id="txtHint">Empty</span><br>
 </form>
 </div>
 <div id="weather">
-<p>City</p>
-<textarea id="dispcity">No City</textarea>
-<p>Current Weather</p>
-<div id="weather">No weather</div>
+<ul id="blank-list">
+<li><p>City</p></li>
+<li><textarea id="dispcity">No City</textarea></li>
+<li><p>Current Weather</p></li>
+<li><div id="weather">No weather</div></li>
+</ul>
 </div>
 <script>
 $( "#cityfield" ).keyup(function() {
@@ -54,8 +57,10 @@ $("#button").click(function(e) {
 		var temp_string = parsed_json['current_observation']['temperature_string']; 
 		var current_weather = parsed_json['current_observation']['weather'];
 		var update_time = parsed_json['current_observation']['observation_time']; 
+		var imageForecast = parsed_json['current_observation']['icon_url'];
 		everything = "<ul id=\"weather-list\">"; 
-		everything += "<li id=\"location-head\">" + location;
+		everything += "<li id=\"location-head\">" + location + "<br>";
+		everything += "<img src=\"" + imageForecast + "\"/>";
 		everything += "<li>Temperature: " + temp_string;
 		everything += "<li>Weather: " + current_weather;
 		everything += "<li>" + update_time; 
