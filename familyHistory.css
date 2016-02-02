@@ -1,0 +1,18 @@
+body {
+background:"#C0DCC0";
+}
+#main-head {
+text-align: center;
+background: "#F5F5DC";
+font-family: "Didot";  
+}
+#wrapper {
+text-align: center; 
+}
+#todo-list {
+list-style-type: none;
+}
+.done-true {
+text-decoration: line-through;
+color: blue;  
+}

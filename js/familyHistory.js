@@ -5,7 +5,10 @@ famHistory.controller('nameAdder', function($scope) {
 		console.log("you clicked the button");
 		var newItem = $scope.name + ', ' + $scope.father + ', ' + $scope.mother;
         	console.log(newItem);
-		$scope.todos.push({text:newItem, done:false});		
+		$scope.todos.push({text:newItem, done:false});
+		$scope.name = "";
+		$scope.father = "";
+		$scope.mother = "";		
 };
 	$scope.removeDone = function() {
 		var oldList = $scope.todos; 

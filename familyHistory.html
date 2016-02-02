@@ -2,20 +2,24 @@
 <html ng-app="famHistory">
 <head>
 <title>Family History To Do List</title>
+<link rel="stylesheet" type="text/css" href="familyHistory.css">
 </head>
 <body>
+<h1 id="main-head">My Family History List</h1>
+<div id="wrapper">
 <div ng-controller="nameAdder">
-	<span>New Name:</span>
 	<input type="text" placeholder="Person" ng-model="name">
 	<input type="text" placeholder="Father" ng-model="father">
 	<input type="text" placeholder="Mother" ng-model="mother">
 	<button ng-click="addToDo()">Add New</button>
+<ul id="todo-list">
 <li ng-repeat="todo in todos">
 	<input type="checkbox" ng-model="todo.done"/>
 	<span class="done-{{todo.done}}">{{todo.text}}</span>
 </li>
 </ul>
 	<button ng-click="removeDone()">Remove Completed</button>
+</div>
 </div>
 <script src="js/angular.min.js"></script>
 <script src="js/familyHistory.js"></script>
