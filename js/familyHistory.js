@@ -7,4 +7,11 @@ famHistory.controller('nameAdder', function($scope) {
         	console.log(newItem);
 		$scope.todos.push({text:newItem, done:false});		
 };
+	$scope.removeDone = function() {
+		var oldList = $scope.todos; 
+		$scope.todos = [];
+		angular.forEach(oldList, function(x) {
+			if(!x.done) $scope.todos.push(x);
+		});
+	};
 });
